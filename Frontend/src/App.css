@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+body {
+  background-color: #f0f4f8;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  min-height: 90vh;
+}
+
+.weather-section,
+.quotes-section {
+  width: 80%;
+  max-width: 700px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.weather-section h2,
+.quotes-section h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #0077b6;
+}
+
+.data-box {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+}
